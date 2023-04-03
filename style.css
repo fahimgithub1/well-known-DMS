@@ -102,6 +102,13 @@ ul {
   font-size: 18px;
 }
 
+#first_section textarea {
+  height: 115px;
+  max-height: 115px;
+  width: 100%;
+  outline: none;
+}
+
 @media only screen and (min-width: 280px) and (max-width: 428px) {
   #first_section #video {
     margin-top: 10px !important;
@@ -293,6 +300,10 @@ ul {
   #profile_section .company_contact li i {
     color: #CC4D33;
   }
+}
+
+#third_section {
+  background-color: rgb(243, 243, 243);
 }
 
 #third_section h2 {
@@ -488,6 +499,10 @@ ul {
 }
 
 /*# sourceMappingURL=style.css.map */
+#new-added-frist h2 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
 
 #new-added-frist h4 {
   font-weight: 600;
@@ -529,4 +544,18 @@ ul {
 
 #new-added-frist .per-feature:not(:last-child) {
   border-bottom: 2px solid #979797;
+}
+
+.Policy h2 {
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.Policy h4 {
+  font-weight: 600;
+}
+
+.Policy ul {
+  list-style: square;
+  padding-left: 24px;
 }
