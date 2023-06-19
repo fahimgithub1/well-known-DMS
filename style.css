@@ -678,3 +678,54 @@ ul {
     margin-bottom: 5px;
   }
 }
+
+/* Lead Form start */
+.formLeft img{
+  width: 100%;
+  height: auto;
+}
+
+.formRight label{
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.formRight input,
+.formRight label,
+.formRight select,
+.formRight textarea,
+.formRight p{
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.formRight input,
+.formRight select,
+.formRight textarea,
+.formRight p{
+  display: block;
+  padding: 10px;
+  border: 1px solid rgb(169, 169, 169);
+  outline: 0;
+  margin-bottom: 15px;
+  width: 100%;
+  border-radius: 7px;
+}
+
+.formRight input:focus,
+.formRight select:focus,
+.formRight textarea:focus{
+  border: 1px solid rgb(35, 35, 35);
+}
+
+.formRight button{
+  padding: 8px 20px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: #cc4d33;
+  font-weight: 800;
+  font-size: 20px;
+}
+/* Lead Form end */
