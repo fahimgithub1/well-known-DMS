@@ -33,6 +33,8 @@ ul {
 #navbar img {
   height: 130px;
   padding-top: 20px;
+  /* max-width: 100%;
+  max-height: auto; */
 }
 
 @media only screen and (min-width: 280px) and (max-width: 428px) {
@@ -683,6 +685,11 @@ ul {
 .formLeft img{
   width: 100%;
   height: auto;
+}
+
+.formRight{
+  max-width: 900px;
+  margin: auto;
 }
 
 .formRight label{
