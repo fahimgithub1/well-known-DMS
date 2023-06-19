@@ -729,3 +729,15 @@ ul {
   font-size: 20px;
 }
 /* Lead Form end */
+
+
+.Buy{
+  background-color: #F37835;
+  box-shadow: 3px 3px 8px #979797;
+  color: #ffffff;
+  margin-top: 15px;
+  outline: none;
+  border: none;
+  height: min-content;
+  line-height: 1;
+}
